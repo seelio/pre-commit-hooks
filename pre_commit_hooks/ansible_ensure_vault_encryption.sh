@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Pre-commit hook that verifies if all files containing 'vault' in the name
 # are encrypted.
@@ -39,4 +39,3 @@ if [ ! $EXIT_STATUS = 0 ] ; then
   exit $EXIT_STATUS
 fi
 exit $EXIT_STATUS
-
