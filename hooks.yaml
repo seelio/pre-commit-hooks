@@ -1,0 +1,5 @@
+- id: ansible_ensure_vault_encryption
+  name: Ensure Files Prefixed with `vault` are Encrypted
+  entry: ansible_ensure_vault_encryption.sh
+  language: script
+  files: ''
