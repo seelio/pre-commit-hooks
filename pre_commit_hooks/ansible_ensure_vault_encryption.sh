@@ -30,7 +30,7 @@ if [ ! $EXIT_STATUS = 0 ] ; then
   echo '#'
   while read -r line; do
     if [ -n "$line" ]; then
-      echo "#\t${yellow}unencrypted:   $line${wipe}"
+      echo -e "#\t${yellow}unencrypted:   $line${wipe}"
     fi
   done <<< "$UNENCRYPTED_FILES"
   echo '#'
